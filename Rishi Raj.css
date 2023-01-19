@@ -1,0 +1,147 @@
+*{
+box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    padding: 0px;
+    margin: 0px;
+}
+.div1{
+    width: 200px;
+    /* background-color: rgb(223, 215, 210); */
+    color: white;
+    height: 570px;
+    float: left;
+}
+.div1 ul li{
+    list-style-type: none;
+    margin-top: 13px;
+    margin-bottom: 12px;
+    background-color: chocolate;
+    padding: 13px;
+    margin-right: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    font-display: bold;
+
+}
+.div1 ul li:hover{
+    background-color: black;
+    transition: .4s;
+    transform: scale(1.2) translateX(10px);
+   
+}
+
+.div1 ul li a{
+    text-decoration: none;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    /* background-color: grey; */
+}
+ 
+.div2{
+    /* background-color: blue; */
+    height: 950px;
+    width: 100%;
+    background-image: url('image/pom.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 100vh; */
+    
+}
+.div2 h1{
+    font-size: 55px;
+    text-align: center;
+    color: rgb(234, 13, 171);
+
+}
+.party{
+    
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+   
+}
+div.main1{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+div.register{
+    background-color: blue;
+    width: 100%;
+    font-size: 18px;
+    backface-visibility: 50%;
+    border-radius: 10px;
+    border:1px solid rgba(255,255,255,0.3);
+    box-shadow:2px 2px 15px
+    rgba(0,0,0,0.3);
+    color: #fff;
+}
+
+
+label{ 
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+input#name{
+    width: 300px;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow:inset 1px 1px 5px
+    rgba(0,0,0,0.3);
+}
+input#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(250,100,0,0.8);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid
+    rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px
+    rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+label,span,h2{
+    text-shadow: 1px 1px 5px
+    rgba(0,0,0,0.3);
+}
+
+.contact td{
+    color: solid black;
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+.social td{
+    padding: 15px;
+}
+
+.social td img:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+
+
